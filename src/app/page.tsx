@@ -1,5 +1,6 @@
 export default function Home() {
   return (
-      <h1>learing Next js Authentication</h1>
+   <h1>home</h1>
+
   );
 }

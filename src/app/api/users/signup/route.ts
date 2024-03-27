@@ -33,8 +33,6 @@ export async function POST(request: NextRequest) {
         return NextResponse.json({
             message : 'user created successfully',
             success : true,
-            username: savedUser.username,
-            email: savedUser.email
         })
 
     } catch (error) {
